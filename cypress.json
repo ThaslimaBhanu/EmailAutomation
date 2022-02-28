@@ -1,0 +1,23 @@
+{
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "overwrite": true,
+    "html": true,
+    "json": true,
+    "timestamp": "ddmmyyyy_HHMMss",
+    "reportPageTitle": "Test Suite Report",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "defaultCommandTimeout": 30000,
+  "requestTimeout": 30000,
+  "viewportWidth": 1300,
+  "viewportHeight": 1000,
+  "video": true,
+  "chromeWebSecurity": false,
+  "env": {
+    "MAILSLURP_API_KEY": "9a2914d62a84305a42be0759a9bbef20b86ee8450b8435893054016a2ce90f2b"
+  }
+}
